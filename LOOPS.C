@@ -1,8 +1,16 @@
 #include"header.h"
 void main(){
-	int w,i=1,j=1,k=17,num,l=1;
+	int w,i,j=1,k=17,num,l=1;
 	clrscr();
-	for(w=10;w>=1;w--){
+	for(i=1;i<=10;i++){
+
+		if(i == 6){
+			continue;
+		}
+		printf("i = %d\n",i);
+	}
+
+	/*for(w=10;w>=1;w--){
 		printf("W = %d\n",w);
 	}
 	printf("\n");
@@ -31,6 +39,6 @@ void main(){
 
 	}
 	while(l<=10);
-
+	*/
 	getch();
 }
